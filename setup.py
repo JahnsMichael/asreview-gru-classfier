@@ -19,11 +19,13 @@ setup(
     packages=find_namespace_packages(include=['asreviewcontrib.*']),
     python_requires='~=3.6',
     install_requires=[
-        'asreview>=1.0'
+        'asreview>=1.0',
+        'tensorflow'
     ],
     entry_points={
         'asreview.models.classifiers': [
-            'nb_example = asreviewcontrib.models:NaiveBayesDefaultParamsModel',
+            'gru = asreviewcontrib.models:GatedRecurrentUnit',
+            'lstm = asreviewcontrib.models:LSTM',
         ],
         'asreview.models.feature_extraction': [
             # define feature_extraction algorithms
