@@ -2,12 +2,12 @@ from setuptools import setup
 from setuptools import find_namespace_packages
 
 setup(
-    name='asreview-template-model-extension',
+    name='asreview-lstm-gru-classifier',
     version='1.0',
-    description='Example classifier extension',
+    description='LSTM and GRU Classifier extension for ASReview',
     url='https://github.com/asreview/asreview',
-    author='ASReview team',
-    author_email='asreview@uu.nl',
+    author='Jahns Michael',
+    author_email='michael.jf.jm@gmail.com',
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
