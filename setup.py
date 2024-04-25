@@ -25,7 +25,7 @@ setup(
     entry_points={
         'asreview.models.classifiers': [
             'gru = asreviewcontrib.models:GatedRecurrentUnit',
-            'lstm = asreviewcontrib.models:LSTM',
+            'lstm-adil = asreviewcontrib.models:LongShortTermMemoryAdil',
         ],
         'asreview.models.feature_extraction': [
             # define feature_extraction algorithms
